@@ -2,7 +2,7 @@
 # this commands were executed from 
 # https://rstudio-pubs-static.s3.amazonaws.com/333425_bc3ce119f58c46289dfbca3e51c73a55.html
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression") # Created a new working directory
+setwd("C://Users//Assignments//Logistic Regression") # Created a new working directory
 library(readxl)
 install.packages("boot")
 install.packages("ISLR")
@@ -13,7 +13,7 @@ library(ISLR)
 library(dplyr)
 library(ggvis)
 library(boot)
-bank <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression//bank-full.csv")
+bank <- read.csv("C://Users//Assignments//Logistic Regression//bank-full.csv")
 #myObj <- read.table(file.choose(), sep=";", header=TRUE)
 #claimants <- read.csv(file.choose()) # Choose the claimants Data set
 install.packages("magrittr")
@@ -259,7 +259,7 @@ plot(rocr_cutoff,colorize=T,text.adj=c(-0.2,1.7))
 #=======================================
 # doing the assignment with bank data by splitting the data into train and test
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression") # Created a new working directory
+setwd("C://Users//Assignments//Logistic Regression") # Created a new working directory
 library(readxl)
 install.packages("boot")
 install.packages("ISLR")
@@ -270,7 +270,7 @@ library(ISLR)
 library(dplyr)
 library(ggvis)
 library(boot)
-bank <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression//bank-full.csv")
+bank <- read.csv("C://Users//Assignments//Logistic Regression//bank-full.csv")
 #myObj <- read.table(file.choose(), sep=";", header=TRUE)
 #claimants <- read.csv(file.choose()) # Choose the claimants Data set
 install.packages("magrittr")
