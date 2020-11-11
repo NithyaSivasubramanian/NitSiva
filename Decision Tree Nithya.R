@@ -1,6 +1,6 @@
 #Data Load
 library(readr)
-company_data <- read.csv("C://Users//nithy//Desktop//Nithya 25_10_2020//Data Science//ExcelR//Assignments//Decision Tree//Company_Data.csv")
+company_data <- read.csv("C://Users//Assignments//Decision Tree//Company_Data.csv")
 View(company_data)
 
 #Install the required packages
@@ -56,7 +56,7 @@ plot(model)
 # accuracy of the above method came as 0.008403361 which is not great
 #######################
 #using rpubs logic
-CompanyData <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Decision Tree//Company_Data.csv")
+CompanyData <- read.csv("C://Users//Assignments//Decision Tree//Company_Data.csv")
 
 View(CompanyData)
 library(plyr)
@@ -88,7 +88,7 @@ plot(modelhigh)
 
 #####  now trying  method. this worked beautifully. 
 
-COMPD <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Decision Tree//Company_Data.csv")
+COMPD <- read.csv("C://Users//Assignments//Decision Tree//Company_Data.csv")
 
 COMPD$ShelveLoc <- factor(COMPD$ShelveLoc)
 COMPD$US <- factor(COMPD$US)
