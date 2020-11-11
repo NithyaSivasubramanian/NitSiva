@@ -1,4 +1,4 @@
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://ExcelR//Assignments//Text Mining")
 devtools::install_github("jrowen/twitteR", ref = "oauth_httr_1_0")
 library(devtools)
 library("twitteR")
@@ -44,7 +44,7 @@ getwd()
 #sentiment analysis 
 
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//ExcelR//Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
@@ -116,7 +116,7 @@ wordcloud2(W_data, size = 0.5,shape = 'triangle')
 # https://www.imdb.com/title/tt0418279/reviews
 
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//ExcelR//Assignments//Text Mining")
 devtools::install_github("jrowen/twitteR", ref = "oauth_httr_1_0")
 library(devtools)
 library("twitteR")
@@ -162,7 +162,7 @@ getwd()
 #sentiment analysis 
 
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//data Science//ExcelR//Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
