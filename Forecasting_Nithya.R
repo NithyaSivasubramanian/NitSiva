@@ -1,12 +1,12 @@
 getwd()
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Forecasting")
+setwd("C://Users//Assignments//Forecasting")
 install.packages("forecast")
 install.packages("smooth")
 library(forecast)
 library(fpp)
 library(smooth)
 library(readxl)
-Cocacola <- read_excel("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Forecasting//CocaCola_Sales_Rawdata.xlsx")
+Cocacola <- read_excel("C://Users//Assignments//Forecasting//CocaCola_Sales_Rawdata.xlsx")
 View(Cocacola) # Quarterly 4 months 
 windows()
 plot(Cocacola$Sales,type="o")
@@ -142,7 +142,7 @@ library(readxl)
 library(smooth)
 library(rmarkdown)
 
-Airlines<-read_excel("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Forecasting//Airlines+Data.xlsx")
+Airlines<-read_excel("C://Users//Assignments//Forecasting//Airlines+Data.xlsx")
 View(Airlines) # Seasonality 12 months 
 windows()
 plot(Airlines$Passengers,type="o")
@@ -278,7 +278,7 @@ library(readxl)
 library(smooth)
 library(rmarkdown)
 
-Plastics<-read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Forecasting//PlasticSales.csv") # read the  data
+Plastics<-read.csv("C://Users//Assignments//Forecasting//PlasticSales.csv") # read the  data
 View(Plastics) # Seasonality 12 months 
 windows()
 plot(Plastics$Sales,type="o")
