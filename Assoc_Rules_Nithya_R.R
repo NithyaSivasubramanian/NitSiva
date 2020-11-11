@@ -3,7 +3,7 @@ library(arulesViz)
 install.packages("rmarkdown")
 library(rmarkdown)
 #book<-read.csv(file.choose())
-movies_data <- read.csv("C://users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules//my_movies.csv")
+movies_data <- read.csv("C://users//Assignments//Association Rules//my_movies.csv")
 View(movies_data)
 movies_trans<-as(as.matrix(movies_data[,6:15]),"transactions")
 inspect(movies_trans[1:100])
@@ -25,7 +25,7 @@ plot(rules, method = "grouped")
 plot(rules,method = "graph")
 
 library(readxl)
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules") # Created a new working directory
+setwd("C://Users//Assignments//Association Rules") # Created a new working directory
 write(rules, file = "Movierules.csv",
       sep = ",", quote = TRUE, row.names = FALSE)
 
@@ -41,7 +41,7 @@ write(rules, file = "Movierules.csv",
 #-------------------------------------------------------------------------------
 
 # groceries data set
-groceries <- read.transactions("C://users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules//groceries1.csv", sep=",", format="basket")
+groceries <- read.transactions("C://users//Assignments//Association Rules//groceries1.csv", sep=",", format="basket")
 summary(groceries)
 inspect(groceries[1:10])
 class(groceries)
@@ -77,7 +77,7 @@ inspect(sort(groceryrules1, by = "lift")[1:5])
 berryrules <- subset(groceryrules1, items %in% "berries")
 inspect(berryrules)
 library(readxl)
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules") # Created a new working directory
+setwd("C://Users//Assignments//Association Rules") # Created a new working directory
 write(groceryrules1, file = "groceryrules.csv",
       sep = ",", quote = TRUE, row.names = FALSE)
 #-------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ write(groceryrules1, file = "groceryrules.csv",
 # assignment with book data
 
 #book<-read.csv(file.choose())
-book_data <- read.csv("C://users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules//book1.csv")
+book_data <- read.csv("C://users//Assignments//Association Rules//book1.csv")
 View(book_data)
 #movies_trans<-as(as.matrix(book_data[,6:15]),"transactions")
 #inspect(movies_trans[1:100])
@@ -109,7 +109,7 @@ plot(rules, method = "grouped")
 plot(rules,method = "graph")
 
 library(readxl)
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Association Rules") # Created a new working directory
+setwd("C://Users//Assignments//Association Rules") # Created a new working directory
 write(rules, file = "Bookrules.csv",
       sep = ",", quote = TRUE, row.names = FALSE)
 View(rules)
