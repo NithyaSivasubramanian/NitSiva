@@ -1,12 +1,12 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering") # Created a new working directory
+setwd("C://Users//Clustering") # Created a new working directory
 library(readxl)
 install.packages("writexl")
 install.packages("xlsx")
 library(xlsx)
 install.packages("WriteXLS")
 
-crime_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering//crime_Data.csv")
+crime_data <- read.csv("C://Users//Assignments//Clustering//crime_Data.csv")
 View(crime_data)
 
 normalized_data<-scale(crime_data[,2:5]) #excluding the university name columnbefore normalizing
