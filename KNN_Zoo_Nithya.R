@@ -1,7 +1,7 @@
 # Read the dataset
 #zoo dataset
 library(readxl)
-zoo <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//KNN//Zoo.csv")
+zoo <- read.csv("C://Users//Assignments//KNN//Zoo.csv")
 #zoo <- read_excel(file.choose())
 zoo <- as.data.frame(zoo)
 class(zoo)
