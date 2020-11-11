@@ -24,7 +24,7 @@ library(partykit)
 
 #####  now trying  method. this worked beautifully. 
 
-FraudCheck <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Decision Tree//Fraud_check.csv")
+FraudCheck <- read.csv("C://Users//Assignments//Decision Tree//Fraud_check.csv")
 View(FraudCheck)
 FraudCheck$Undergrad <- factor(FraudCheck$Undergrad)
 FraudCheck$Marital.Status <- factor(FraudCheck$Marital.Status)
