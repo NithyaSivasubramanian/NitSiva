@@ -1,5 +1,5 @@
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression") 
-Cars <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression//Cars.csv") # choose the Cars.csv data set
+setwd("C://Users//Assignments//Multi linear regression") 
+Cars <- read.csv("C://Users//Assignments//Multi linear regression//Cars.csv") # choose the Cars.csv data set
 View(Cars)
 attach(Cars)
 # Exploratory Data Analysis(60% of time)
