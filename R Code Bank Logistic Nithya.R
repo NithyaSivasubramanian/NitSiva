@@ -6,9 +6,9 @@ library(ggvis)
 library(boot)
 library(plyr)
 library(moments)
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression") # Created a new working directory
+setwd("C://Users//Assignments/Logistic Regression") # Created a new working directory
 
-bank <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression//bank-full.csv")
+bank <- read.csv("C://Users//Assignments//Logistic Regression//bank-full.csv")
 install.packages("magrittr")
 library(magrittr )
 input <- readLines("bank-full.csv") %>% gsub( '"|^# +', "", . ) %>% strsplit( "\\ +|;" )
