@@ -1,6 +1,6 @@
 library(readxl
       )
-q7_at <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 1//q7.csv")
+q7_at <- read.csv("C://Users//Data Science//ExcelR//Assignments//Basic Statistics Level 1//q7.csv")
 #1st business moment
 
 attach(q7_at)
@@ -34,8 +34,8 @@ range(Weigh) # range
 
 
 library(readxl)
-q9_a <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 1//q9_a.csv")
-q9_b <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 1//q9_b.csv")
+q9_a <- read.csv("C://Data Science//ExcelR//Assignments//Basic Statistics Level 1//q9_a.csv")
+q9_b <- read.csv("C://Data Science//ExcelR//Assignments//Basic Statistics Level 1//q9_b.csv")
 
 #3rd Skewness & 4th Kurtosis
 install.packages("moments")
@@ -57,7 +57,7 @@ hist(q9_a$dist)
 hist(q9_b$SP)
 hist(q9_b$WT)
 
-data_cars <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 1//Cars.csv")
+data_cars <- read.csv("C:////Data Science//ExcelR//Assignments//Basic Statistics Level 1//Cars.csv")
 attach(data_cars)
 summary(data_cars)
 MPG <- data_cars$MPG
@@ -81,8 +81,8 @@ barplot(data_cars$MPG, col = "whitesmoke", main = "BARPLOT FOR HP")
 boxplot(Cars_data,col = "blue")
 boxplot.stats(SP)$out
 
-wc_at <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 1//wc-at.csv")
-# C:\Users\JayNit\Desktop\Nithya\Data Science\ExcelR\Assignments\Basic Statistics Level 1
+wc_at <- read.csv("C://Data Science//ExcelR//Assignments//Basic Statistics Level 1//wc-at.csv")
+
 
 attach(wc_at)
 skewness(wc_at)
