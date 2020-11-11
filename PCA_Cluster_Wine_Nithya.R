@@ -1,4 +1,4 @@
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//PCA") # Created a new working directory
+setwd("C://Users//Assignments//PCA") # Created a new working directory
 library(cluster)
 library(factoextra)
 library(readxl)
@@ -26,7 +26,7 @@ install.packages("NbClust")
 library(stats)
 library(NbClust)
 
-wine_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//PCA//wine.csv")
+wine_data <- read.csv("C://Users//Assignments//PCA//wine.csv")
 View(wine_data)
 help(princomp) ## to understand the api for princomp
 
