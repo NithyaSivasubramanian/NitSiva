@@ -1,13 +1,13 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing") # Created a new working directory
+setwd("C://ExcelR//Assignments//Hypothesis Testing") # Created a new working directory
 library(readxl)
 library(readr)
-cutlets_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//Cutlets.csv")
+cutlets_data <- read.csv("C://ata Science//ExcelR//Assignments//Hypothesis Testing//Cutlets.csv")
 #1st business moment
-# C:\Users\JayNit\Desktop\Nithya\Data Science\ExcelR\Assignments\Hypothesis Testing
-BuyerRatio_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//BuyerRatio.csv")
-Faltoons_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//Faltoons.csv")
-LabTAT_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//LabTAT.csv")
+
+BuyerRatio_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//BuyerRatio.csv")
+Faltoons_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//Faltoons.csv")
+LabTAT_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//LabTAT.csv")
 attach(cutlets_data)
 View(cutlets_data)
 
@@ -34,11 +34,11 @@ shapiro.test(Laboratory.4)
 var.test(Laboratory.1,Laboratory.2)
 var.test(Laboratory.3,Laboratory.4)
 
-#setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Datasets") # Created a new working directory
+#setwd("C://Data Science//ExcelR//Datasets") # Created a new working directory
 
 #library(readxl)
 #CRD<-read_excel("ContractRenewal_Data.xlsx")   # ContractRenewal_Data(unstacked).xlsx
-#CRD_read <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Datasets//ContractRenewal_Data(unstacked).xlsx")
+#CRD_read <- read.csv("C://Data Science//ExcelR//Datasets//ContractRenewal_Data(unstacked).xlsx")
 ##1st business moment
 #View(CRD)
 
@@ -56,7 +56,7 @@ summary(Anova_results)
 # third question on hypothesis testin
 
 library("MASS")
-BuyerRatio_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//BuyerRatio.csv")
+BuyerRatio_data <- read.csv("C://ExcelR//Assignments//Hypothesis Testing//BuyerRatio.csv")
 
 attach(BuyerRatio_data)
 View(BuyerRatio_data)
@@ -82,7 +82,7 @@ print(chisq.test(malefemale_Data_NS))
 #wants to check whether the defective % varies by center. Please analyze the data at 5% significant level and help
 #the manager draw appropriate inferences. 
 
-custorder_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//Costomer+OrderForm.csv")
+custorder_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//Costomer+OrderForm.csv")
 View(custorder_data)
 stacked_cord<-stack(custorder_data)
 View(stacked_cord)
@@ -112,7 +112,7 @@ library("MASS")
 Johnytalkers<-read_excel("JohnyTalkers.xlsx")   # JohnyTalkers.xlsx
 Johnytalkers<-read_excel(file.choose())
 View(Johnytalkers) 
-custorder_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//Costomer+OrderForm.csv")
+custorder_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//Costomer+OrderForm.csv")
 View(custorder_data)
 View(custorder_data) 
 attach(custorder_data)
@@ -145,7 +145,7 @@ prop.test(x=c(58,152),n=c(480,740),conf.level = 0.95,correct = FALSE,alternative
 #based on the day of the week. Analyse the data and determine whether there is evidence at 5% significance level 
 #to support this hypothesis. 
 
-panta_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//Faltoons.csv")
+panta_data <- read.csv("C://Data Science//ExcelR//Assignments//Hypothesis Testing//Faltoons.csv")
 View(panta_data)
 View(panta_data) 
 attach(panta_data)
@@ -163,7 +163,7 @@ prop.test(x=c(47,66),n=c(167,233),conf.level = 0.95,correct = FALSE,alternative 
 prop.test(x=c(47,66),n=c(167,233),conf.level = 0.95,correct = FALSE,alternative = "greater")
 
 #library(readxl)
-#JohnyTalkers_data <- read_excel("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Hypothesis Testing//JohnyTalkers.xlsx")
+#JohnyTalkers_data <- read_excel("C://ExcelR//Assignments//Hypothesis Testing//JohnyTalkers.xlsx")
 #View(JohnyTalkers_data)
 #attach(JohnyTalkers_data)
 #table(Icecream)
