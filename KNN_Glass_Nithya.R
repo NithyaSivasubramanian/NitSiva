@@ -1,7 +1,7 @@
 # Read the dataset
 #glass dataset
 library(readxl)
-glass <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//KNN//glass.csv")
+glass <- read.csv("C://Users//Assignments//KNN//glass.csv")
 #glass <- read_excel(file.choose())
 glass <- as.data.frame(glass)
 class(glass)
