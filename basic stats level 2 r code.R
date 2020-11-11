@@ -1,6 +1,6 @@
 library(readxl
 )
-comp_msr <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Basic Statistics Level 2//company measure.csv")
+comp_msr <- read.csv("C://Data Science//ExcelR//Assignments//Basic Statistics Level 2//company measure.csv")
 #1st business moment
 comp_msr$Measure.X
 comp_msr$Measure.V
