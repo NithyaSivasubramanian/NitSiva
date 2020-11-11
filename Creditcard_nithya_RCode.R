@@ -1,5 +1,5 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression") # Created a new working directory
+setwd("C://Users//Assignments//Logistic Regression") # Created a new working directory
 library(readxl)
 install.packages("boot")
 install.packages("ISLR")
@@ -10,7 +10,7 @@ library(ISLR)
 library(dplyr)
 library(ggvis)
 library(boot)
-credits <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Logistic Regression//creditcard.csv")
+credits <- read.csv("C://Users//Assignments//Logistic Regression//creditcard.csv")
 #claimants <- read.csv(file.choose()) # Choose the claimants Data set
 View(credits)
 sum(is.na(credits))
