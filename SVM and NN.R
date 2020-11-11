@@ -3,7 +3,7 @@
 #load letterdata as letters
 # divide into training and test data
 #letters<-read.csv(file.choose(),header = T)
-letters<-read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Support Vector Machines//letterdata.csv")
+letters<-read.csv("C://Users//Assignments//Support Vector Machines//letterdata.csv")
 View(letters)
 class(letters$letter)
 letters$letter <- as.factor(letters$letter)
