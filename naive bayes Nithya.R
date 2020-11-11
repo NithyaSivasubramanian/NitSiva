@@ -4,8 +4,8 @@ library(e1071)
 library(naivebayes)
 library(caret)
 library(ggplot2)
-sal_train <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Naive Bayes//SalaryData_Train.csv")
-sal_test <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Naive Bayes//SalaryData_Test.csv")
+sal_train <- read.csv("C://Data Science//ExcelR//Assignments//Naive Bayes//SalaryData_Train.csv")
+sal_test <- read.csv("C://Data Science//ExcelR//Assignments//Naive Bayes//SalaryData_Test.csv")
 #Import the raw_sms dataset 
 
 #sms_raw <- read_csv("E:/Classes/Trainer Tools/Final/12 KNN & Naive Bayes/Data Sets/sms_raw_NB.csv")
@@ -83,7 +83,7 @@ acc
 #Import the raw_sms dataset 
 
 library(readr)
-sms_raw <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Naive Bayes//sms_raw_NB1.csv")
+sms_raw <- read.csv("C://data Science//ExcelR//Assignments//Naive Bayes//sms_raw_NB1.csv")
 View(sms_raw)
 
 sms_raw$type <- factor(sms_raw$type)
