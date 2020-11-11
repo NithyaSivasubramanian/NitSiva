@@ -50,6 +50,6 @@ final1 <- final[,c(ncol(final),1:(ncol(final)-1))]
 View(final1)
 
 library(WriteXLS)
-#C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering//crime_Data.csv")
+#C://Users//Assignments//Clustering//crime_Data.csv")
 write.xlsx(final1, file="clustered_crime_data.xlsx")
 setwd("E:/Excelr Data/R Codes/Clustering")
