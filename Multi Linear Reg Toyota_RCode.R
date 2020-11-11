@@ -1,5 +1,5 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression") # Created a new working directory
+setwd("C://Users//Assignments//Multi linear regression") # Created a new working directory
 library(readxl)
 library(readr)
 library(readr)
@@ -15,7 +15,7 @@ install.packages("e1071")
 library(plyr)
 library(e1071)
 
-toyota_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression//ToyotaCorolla.csv")
+toyota_data <- read.csv("C://Users//Assignments//Multi linear regression//ToyotaCorolla.csv")
 View(toyota_data)
 
 #Corolla<-data[c("Price","Age_08_04","KM","HP","cc","Doors","Gears","Quarterly_Tax","Weight")]
