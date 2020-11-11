@@ -1,5 +1,5 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering") # Created a new working directory
+setwd("C://Data Science//ExcelR//Assignments//Clustering") # Created a new working directory
 library(readxl)
 install.packages("writexl")
 install.packages("xlsx")
@@ -25,7 +25,7 @@ install.packages("Stats")
 install.packages("NbClust")
 library(NbClust)
 
-air_data <- read.xlsx("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering//EastWestAirlines.xlsx",2)
+air_data <- read.xlsx("C://Data Science//ExcelR//Assignments//Clustering//EastWestAirlines.xlsx",2)
 View(air_data)
 
 norm_Airdata<-scale(air_data[,2:11]) #excluding the university name columnbefore normalizing
@@ -75,7 +75,7 @@ final1 <- final[,c(ncol(final),1:(ncol(final)-1))]
 View(final1)
 
 library(WriteXLS)
-#C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering//crime_Data.csv")
+#C://ExcelR//Assignments//Clustering//crime_Data.csv")
 write.xlsx(final1, file="clustered_airlines_data.xlsx")
 setwd("E:/Excelr Data/R Codes/Clustering")
 
@@ -150,6 +150,6 @@ clusplot(xpm)
 
 
 library(WriteXLS)
-#C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Clustering//crime_Data.csv")
+#C://ExcelR//Assignments//Clustering//crime_Data.csv")
 write.xlsx(final2, file="Kmeans_clustered_airline_data.xlsx")
 setwd("E:/Excelr Data/R Codes/Clustering")
