@@ -1,5 +1,5 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Simple Linear Regression") # Created a new working directory
+setwd("C://Users//Assignments//Simple Linear Regression") # Created a new working directory
 library(readxl)
 library(readr)
 library(readr)
@@ -11,10 +11,10 @@ library(ggplot2)
 install.packages("moments")
 library(moments)
 
-wc.at <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Datasets//wc-at.csv")
+wc.at <- read.csv("C://Users//Data Science//ExcelR//Datasets//wc-at.csv")
 # Load wc_at.csv dataset
 library(readr)
-calweight_at <- read_csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Simple Linear Regression//calories_consumed.csv")
+calweight_at <- read_csv("C://Users//Data Science//ExcelR//Assignments//Simple Linear Regression//calories_consumed.csv")
 View(calweight_at)
 
 # Exploratory data analysis
