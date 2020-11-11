@@ -1,6 +1,6 @@
 setwd("D:\\ML\\R\\Nueral Networks")
 library(readr)
-concrete <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Neural Networks//concrete1.csv")
+concrete <- read.csv("C://Users//Assignments//Neural Networks//concrete1.csv")
 View(concrete)
 str(concrete)
 attach(concrete)
@@ -51,7 +51,7 @@ library(neuralnet)
 library(nnet) 
 library(NeuralNetTools)
 library(plyr)
-Startups <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Neural Networks//50_Startups.csv")
+Startups <- read.csv("C://Users//Assignments//Neural Networks//50_Startups.csv")
 
 View(Startups)
 class(Startups)
@@ -143,7 +143,7 @@ plotnet(Startups_model2, alpha = 0.6)
 
 ####### 2.	PREDICT THE BURNED AREA OF FOREST FIRES WITH NEURAL NETWORKS
 
-forestfire <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Neural Networks//forestfires.csv")
+forestfire <- read.csv("C://Users//Assignments//Neural Networks//forestfires.csv")
 View(forestfire)
 str(forestfire)
 attach(forestfire)
@@ -245,7 +245,7 @@ library(ggvis) #Data visulization
 library(psych) #Scatterplot matrix
 library(knitr) #html table
 library(neuralnet) #artifical neural network 
-concrete <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Neural Networks//concrete.csv")
+concrete <- read.csv("C://Users//Assignments//Neural Networks//concrete.csv")
 
 knitr::kable(head(concrete), caption = "Partial Table Preview")
 str(concrete)
