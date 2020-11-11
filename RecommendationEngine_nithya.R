@@ -17,7 +17,7 @@ library(installr)
 library(DT)
 updateR()
 #movie rating data
-textbook_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Recommendation//book.csv")
+textbook_data <- read.csv("C://Users//Assignments//Recommendation//book.csv")
 View(textbook_data)
 textbook_data <- textbook_data[,-1]
 #metadata about the variable
