@@ -1,5 +1,5 @@
 getwd() # function we use to know the present working directory
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression") # Created a new working directory
+setwd("C://Users//Assignments//Multi linear regression") # Created a new working directory
 library(readxl)
 library(readr)
 library(readr)
@@ -13,7 +13,7 @@ library(moments)
 install.packages("plyr")
 library(plyr)
 
-startups_data <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Multi linear regression//50_Startups.csv")
+startups_data <- read.csv("C://Users//Assignments//Multi linear regression//50_Startups.csv")
 View(startups_data)
 
 startups_data$State <- revalue(startups_data$State,c("New York"="0", "California"="1", "Florida"="2"))
