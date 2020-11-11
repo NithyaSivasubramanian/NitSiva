@@ -1,6 +1,6 @@
 library(e1071)
 library(ggplot2)
-forestfires<-read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Support Vector Machines//forestfires.csv")
+forestfires<-read.csv("C://Users//data Science//ExcelR//Assignments//Support Vector Machines//forestfires.csv")
 
 View(forestfires)
 str(forestfires)
