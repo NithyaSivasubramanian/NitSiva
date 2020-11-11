@@ -81,7 +81,7 @@ varImpPlot(wbcd_forest) # Explore about variable importance plot, how it can be 
 
 # random forest using company data
 
-CompanyData  <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Decision Tree//Company_Data.csv")
+CompanyData  <- read.csv("C://Users//Assignments//Decision Tree//Company_Data.csv")
 set.seed(123)
 hist(CompanyData$Sales, main = "Sales of Companydata",xlim = c(0,20),
      breaks=c(seq(10,20,30)), col = c("blue","red", "green","violet"))
@@ -148,7 +148,7 @@ MDSplot(rf1, CD$highsales)
 
 ### RAndom forest using Fraud data
 
-FraudCheck <- read.csv("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Decision Tree//Fraud_check.csv")
+FraudCheck <- read.csv("C://Users//Assignments//Decision Tree//Fraud_check.csv")
 View(FraudCheck)
 FraudCheck$Undergrad <- factor(FraudCheck$Undergrad)
 FraudCheck$Marital.Status <- factor(FraudCheck$Marital.Status)
