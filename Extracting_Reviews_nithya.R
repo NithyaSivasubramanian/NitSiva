@@ -1,4 +1,4 @@
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Users//Assignments//Text Mining")
 getwd()
 library(rvest)
 install.packages("XML")
@@ -42,7 +42,7 @@ getwd()
 
 # sentiment analysis on amazon_reviews_RedmiN.txt
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Users//Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
@@ -114,7 +114,7 @@ wordcloud2(W_data, size = 0.5,shape = 'triangle')
 ############ and sentiment analysis
 
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Assignments//Text Mining")
 getwd()
 library(rvest)
 install.packages("XML")
@@ -140,7 +140,7 @@ write.table(imdb_reviews,"imdb_reviews_aqua.txt",row.names = F)
 getwd()
 # sentiment analysis on transformers reviews
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
@@ -209,7 +209,7 @@ wordcloud2(W_data, size = 0.5,shape = 'triangle')
 # https://www.trustpilot.com/review/practo.com#:~:text=though%20outside%20they%20charge%20high,recommend%20practo%20to%20any%20one.
 
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Assignments//Text Mining")
 getwd()
 library(rvest)
 install.packages("XML")
@@ -235,7 +235,7 @@ write.table(Gaming_reviews,"Gaming_reviews_amazon.txt",row.names = F)
 getwd()
 # sentiment analysis on transformers reviews
 
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users//Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
