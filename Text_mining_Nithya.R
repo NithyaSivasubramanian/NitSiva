@@ -1,4 +1,4 @@
-setwd("C://Users//JayNit//Desktop//Nithya//Data Science//ExcelR//Assignments//Text Mining")
+setwd("C://Users////Assignments//Text Mining")
 getwd()
 library(readr)
 require(graphics)
